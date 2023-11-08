@@ -30,21 +30,6 @@ while (true)
             Console.WriteLine("Enter the value of B");
             bValue = int.Parse(Console.ReadLine());
             break;
-        case 3:
-            result = aValue + bValue;
-            Console.WriteLine(result.ToString());
-            break;
-        case 4:
-            result = aValue - bValue;
-            Console.WriteLine(result.ToString());
-            break;
-        case 6:
-            result = aValue / bValue;
-            Console.WriteLine(result.ToString());
-            break;
-        case 5:
-            result = aValue * bValue;
-            Console.WriteLine(result);
-            break;
+
     }
 }
