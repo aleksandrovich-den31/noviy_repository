@@ -24,6 +24,13 @@ while (true)
     {
         case 6:
             result = aValue / bValue;
+
+            Console.WriteLine(result.ToString());
+            break;
+
+        case 3:
+            result = aValue + bValue;
+
             Console.WriteLine(result.ToString());
             break;
     }
