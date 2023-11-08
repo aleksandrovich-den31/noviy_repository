@@ -22,14 +22,9 @@ while (true)
     int choosenOptInt = int.Parse(choosenOption);
     switch (choosenOptInt)
     {
-        case 1:
-            Console.WriteLine("Enter the value of A");
-            aValue = int.Parse(Console.ReadLine());
+        case 4:
+            result = aValue - bValue;
+            Console.WriteLine(result.ToString());
             break;
-        case 2:
-            Console.WriteLine("Enter the value of B");
-            bValue = int.Parse(Console.ReadLine());
-            break;
-
     }
 }
